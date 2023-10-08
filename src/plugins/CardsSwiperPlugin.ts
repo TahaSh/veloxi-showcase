@@ -25,8 +25,8 @@ export class CardsSwiperPlugin extends Plugin {
   title!: View
   background!: View
   sidebar!: View
-  swipePlugin = this.usePlugin(SwipeEventPlugin)
-  dragPlugin = this.usePlugin(DragEventPlugin)
+  swipePlugin = this.useEventPlugin(SwipeEventPlugin)
+  dragPlugin = this.useEventPlugin(DragEventPlugin)
   anchorPosition?: { x: number; y: number }
   previousDragY: number = 0
 

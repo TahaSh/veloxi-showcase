@@ -20,7 +20,7 @@ export class WelcomeScreenPlugin extends Plugin {
   subtitle!: View
   titleSection!: View
 
-  dragPlugin = this.usePlugin(DragEventPlugin)
+  dragPlugin = this.useEventPlugin(DragEventPlugin)
   progress: number = 0
   targetY: number = 0
   locked = false

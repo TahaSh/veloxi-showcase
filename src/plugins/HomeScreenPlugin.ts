@@ -5,7 +5,7 @@ export class CloseHomeScreenEvent {}
 export class HomeScreenPlugin extends Plugin {
   static pluginName = 'HomeScreenPlugin'
 
-  dragPlugin = this.usePlugin(DragEventPlugin)
+  dragPlugin = this.useEventPlugin(DragEventPlugin)
   root!: View
 
   setup(): void {

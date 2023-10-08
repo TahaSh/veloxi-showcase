@@ -71,7 +71,7 @@ import HomeNavBar from './components/HomeNavBar.vue'
 import WelcomeScreen from './components/WelcomeScreen.vue'
 import NotesScreen from './components/NotesScreen.vue'
 
-import { App } from 'veloxi'
+import { createApp } from 'veloxi'
 import {
   CloseWelcomeScreenEvent,
   WelcomeScreenPlugin
@@ -96,7 +96,7 @@ const scrollPosition = ref(0)
 
 const currentIndex = ref(0)
 
-const app = App.create()
+const app = createApp()
 
 onMounted(() => {
   app.addPlugin(WelcomeScreenPlugin)

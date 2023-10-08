@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "veloxi": "^0.0.1",
+    "veloxi": "^0.0.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {

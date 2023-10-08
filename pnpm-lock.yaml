@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@vitejs/plugin-vue': ^4.2.3
   typescript: ^5.0.2
-  veloxi: ^0.0.1
+  veloxi: ^0.0.4
   vite: ^4.4.5
   vue: ^3.3.4
   vue-tsc: ^1.8.5
 
 dependencies:
-  veloxi: 0.0.1
+  veloxi: 0.0.4
   vue: 3.3.4
 
 devDependencies:
@@ -507,8 +507,8 @@ packages:
     hasBin: true
     dev: true
 
-  /veloxi/0.0.1:
-    resolution: {integrity: sha512-rWs691JcmYSVcNHNSfP5/5+0GQ26ngsZN/iu4LXZRnw59qYvztzM6LqyYEBBOGEbjnJ/uqofkOv5LrMiH/esig==}
+  /veloxi/0.0.4:
+    resolution: {integrity: sha512-LshusdN9iTgpG3JzXmDe4+S5ZMQ4vRF1UdKQeo6l0SeJZzDDK6rywr0PVIaITUJCnZy79Ebnm+rGa5pOU//lzw==}
     dev: false
 
   /vite/4.4.9:
